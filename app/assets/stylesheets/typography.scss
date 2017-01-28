@@ -1,0 +1,14 @@
+body {
+  font:100% Verdana, sans-serif;
+  line-height:1.5em; /* 16×1.125=18 */
+  background:asset_path('full_d.jpg') 400px 500px no-repeat;
+  color:#565656;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+p {
+    font-size:0.775em;
+}
