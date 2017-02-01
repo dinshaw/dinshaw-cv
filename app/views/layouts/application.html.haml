@@ -13,7 +13,7 @@
     = javascript_include_tag 'application'
     = csrf_meta_tags
 
-  %body
+  %body{ data: { spy: :scroll, target: '#main-nav' } }
     = render 'layouts/navigation'
     .container
       - if flash
@@ -21,8 +21,5 @@
           .col-sm-12
             = render 'layouts/messages'
       .row
-        .col-sm-9.main
+        .col-sm-12
           = yield
-        .col-sm-3.sidebar
-          = render 'layouts/side_bar'
-    = render 'layouts/footer'

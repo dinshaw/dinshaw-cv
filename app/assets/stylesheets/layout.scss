@@ -1,7 +1,16 @@
-body{
-  background: image-url('left_d.jpg') no-repeat;
- }
+body > .container {
+  margin-top: 70px;
+}
 
- .sidebar {
-  background-color: #f6f6f6;
- }
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
+
+
+h4 {
+  border-bottom: 1px solid $gray-lighter;
+}

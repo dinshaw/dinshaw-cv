@@ -1,15 +1,23 @@
-%nav.navbar.navbar-toggleable-md.navbar-inverse.bg-inverse
-  %button.navbar-toggler{"aria-controls" => "navbarTogglerDemo01", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarTogglerDemo01", "data-toggle" => "collapse", :type => "button"}
+%nav.navbar.navbar-toggleable-md.fixed-top.navbar-inverse.bg-inverse
+  %button.navbar-toggler.navbar-toggler-right{"data-target" => "#main-nav", "data-toggle" => "collapse", :type => "button"}
     %span.navbar-toggler-icon
-  #navbarTogglerDemo01.collapse.navbar-collapse
-    %a.navbar-brand{:href => "#"} Hidden brand
-    %ul.navbar-nav.mr-auto.mt-2.mt-lg-0
-      %li.nav-item.active
-        %a.nav-link{:href => "#"}
-          Home
-          %span.sr-only (current)
+  %a.navbar-brand{:href => "#"} Dinshaw
+  #main-nav.collapse.navbar-collapse
+    %ul.navbar-nav.nav-pills.mr-auto
       %li.nav-item
-        %a.nav-link{:href => "#"} Link
+        %a.nav-link{ href: '#about-me' }
+          About Me
       %li.nav-item
-        %a.nav-link.disabled{:href => "#"} Disabled
-
+        %a.nav-link{ href: '#work-experience' }
+          Work Experience
+      %li.nav-item
+        %a.nav-link{ href: '#mentoring' }
+          Mentoring
+      %li.nav-item
+        %a.nav-link{ href: '#skills' }
+          Skills
+    %ul.navbar-nav.pull-right
+      %li.nav-item.email
+        %a.nav-link{ href: 'mailto:gobhai@gmail.com' } gobhai@gmail.com
+      %li.nav-item
+        %a.nav-link 646.239.8325
