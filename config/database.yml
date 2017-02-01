@@ -9,3 +9,9 @@ test:
   adapter: postgresql
   database: dinshaw-cv_test
   username: <%= `whoami` %>
+
+production:
+  host: localhost
+  adapter: postgresql
+  database: dinshaw-cv_prod
+  username: <%= `whoami` %>

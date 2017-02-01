@@ -17,6 +17,5 @@ module Resume
     end
     config.time_zone = 'Eastern Time (US & Canada)'
     config.autoload_paths << Rails.root.join('lib')
-    config.action_controller.page_cache_directory = "#{Rails.root}/public/cached_pages"
   end
 end

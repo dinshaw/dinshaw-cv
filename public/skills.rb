@@ -1,0 +1,40 @@
+= link_to('AWS', 'https://aws.amazon.com', target: '_blank') + ','
+= link_to('Heroku', 'https://www.heroku.com', target: '_blank') + ','
+= link_to('Digital Ocean', 'https://www.digitalocean.com', target: '_blank')
+
+= link_to('Ruby', 'https://www.ruby-lang.org/en/') + ','
+= link_to('Java', 'https://www.java.com/en/') + ','
+= link_to('PHP', 'https://secure.php.net') + ','
+= link_to('ActionScript', 'http://www.adobe.com/devnet/actionscript.html') + ','
+= link_to('GO', 'https://golang.org') + ','
+
+= link_to('CircleCi', 'https://circleci.com') + ','
+= link_to('Jenkins', 'https://jenkins.io') + ','
+= link_to('Travis', 'https://travis-ci.org') + ','
+= link_to('Semaphore', 'https://semaphoreci.com') + ','
+
+= link_to('RSpec', 'http://rspec.info') + ','
+= link_to('MiniTest', 'https://github.com/seattlerb/minitest') + ','
+
+= link_to('Javascript', 'https://www.javascript.com') + ','
+= link_to('CoffeeScript', 'http://coffeescript.org') + ','
+= link_to('JQuery', 'https://jquery.com') + ','
+= link_to('React', 'https://facebook.github.io/react/') + ','
+= link_to('Angular', 'https://angularjs.org') + ','
+= link_to('Backbone', 'http://backbonejs.org') + ','
+= link_to('HTML', 'https://en.wikipedia.org/wiki/HTML',) + ','
+= link_to('HAML', 'http://haml.info') + ','
+= link_to('CSS', 'http://www.w3schools.com/css/') + ','
+= link_to'Bootstrap', 'http://getbootstrap.com/css/'
+= link_to'Foundation', 'http://foundation.zurb.com'
+= link_to'SASS', 'http://sass-lang.com'
+= link_to'LESS', 'http://lesscss.org'
+
+= link_to'Postgres', 'https://www.postgresql.org'
+= link_to'MySQL/MariaDB', 'https://mariadb.org'
+= link_to'CouchDB', 'http://couchdb.apache.org'
+= link_to'MongoDB', 'https://www.mongodb.com'
+= link_to'Sqlite', 'https://www.sqlite.org'
+= link_to'Apache Solr', 'http://lucene.apache.org/solr/'
+= link_to'Sphinx', 'http://sphinxsearch.com'
+= link_to
