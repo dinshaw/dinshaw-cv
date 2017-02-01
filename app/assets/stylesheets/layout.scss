@@ -14,3 +14,8 @@ a.anchor {
 h4 {
   border-bottom: 1px solid $gray-lighter;
 }
+
+section {
+  margin-top: 2rem;
+  @include clearfix;
+}

@@ -1,16 +1,19 @@
 %a#about-me.anchor
 %section.about-me
   %h4 About Me
+  = image_tag 'din.jpg', class: 'pull-right img-thumbnail'
   %p
-    I am a web developer living in Manhattan. I currently run
-    = link_to "Constant Contact's", 'https://www.constantcontact.com/index.jsp'
-    New York development team.
+    I am a application developer living in Manhattan. I currently run
+    = link_to "Constant Contact's", 'https://www.constantcontact.com/index.jsp', target: '_blank'
+    New York development team. I have been building and maintaining production applications since the early 2000's. For the past four years, I have
+    = link_to('shared my learning as a mentor of young developers', '#mentoring') + '.'
 
   %p
-    I am passionate about creating elegant, maintainable, and intuitive software. I have been building and maintaining production applications since the early 2000's. For the past four years, I have shared my learning as a mentor of young developers.
-
+    I believe that communication and simplicity as the cornerstones of successful application development. I enjoy working with both product and development teams, and excel at bridging the communication gaps between them.
   %p
     I specialize in
-    = link_to('Ruby On Rails', '#') + ','
+    = link_to('Ruby On Rails', 'http://rubyonrails.org', target: '_blank') + ','
     but am proficient in
     = link_to('many languages and frameworks', '#skills') + '.'
+
+
