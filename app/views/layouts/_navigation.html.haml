@@ -18,6 +18,6 @@
           Skills
     %ul.navbar-nav.pull-right
       %li.nav-item.email
-        %a.nav-link{ href: 'mailto:gobhai@gmail.com' } gobhai@gmail.com
+        = mail_to "gobhai@gmail.com", "gobhai@gmail.com", encode: "javascript", class: 'nav-link'
       %li.nav-item
         %a.nav-link 646.239.8325

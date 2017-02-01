@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem "actionpack-page_caching"
+gem 'actionview-encoded_mail_to'
 gem 'active_link_to', '~> 1.0'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'coffee-rails', '~> 4.2'

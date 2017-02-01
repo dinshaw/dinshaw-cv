@@ -19,12 +19,16 @@ GEM
       rack-test (~> 0.6.3)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.2)
+    actionpack-page_caching (1.1.0)
+      actionpack (>= 4.0.0, < 6)
     actionview (5.0.1)
       activesupport (= 5.0.1)
       builder (~> 3.1)
       erubis (~> 2.7.0)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.2)
+    actionview-encoded_mail_to (1.0.9)
+      rails
     active_link_to (1.0.3)
       actionpack
     activejob (5.0.1)
@@ -199,6 +203,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  actionpack-page_caching
+  actionview-encoded_mail_to
   active_link_to (~> 1.0)
   bootstrap (~> 4.0.0.alpha6)
   byebug
