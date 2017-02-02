@@ -15,9 +15,9 @@ a.anchor {
 section {
   margin-top: 2rem;
   @include clearfix;
-  @media print {
-    page-break-inside: avoid;
-  }
+  // @media print {
+  //   page-break-inside: avoid;
+  // }
 }
 
 .sidebar {
