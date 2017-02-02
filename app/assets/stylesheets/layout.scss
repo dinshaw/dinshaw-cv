@@ -1,7 +1,9 @@
 body > .container {
   margin-top: 70px;
+  @media print {
+    margin-top: 0;
+  }
 }
-
 
 a.anchor {
     display: block;
@@ -10,12 +12,11 @@ a.anchor {
     visibility: hidden;
 }
 
-
-h4 {
-  border-bottom: 1px solid $gray-lighter;
-}
-
 section {
   margin-top: 2rem;
   @include clearfix;
+}
+
+.sidebar {
+  position: fixed;
 }

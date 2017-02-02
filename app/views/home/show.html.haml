@@ -1,16 +1,17 @@
 #main_content
-  = render 'about_me'
-  = render 'work_experience'
-  = render 'speaking'
-  = render 'testing_and_automation'
-  = render 'mentoring'
-  = render 'skills'
-
-%br
-%br
-%br
-%br
-%br
-%br
-%br
+  .row
+    .col-sm-9.col-print-12
+      = render 'print_header'
+      = render 'about_me'
+      = render 'work_experience'
+      = render 'speaking'
+      = render 'testing_and_automation'
+      = render 'mentoring'
+      = render 'skills'
+    .col-sm-3.col-print-pull-3.hidden-print
+      = render 'sidebar'
+.spacer.hidden-print
+  %br
+  %br
+  %br
 

@@ -1,0 +1,11 @@
+%section.sidebar
+  %ul.contact
+    %li.headshot= image_tag 'din.jpg', class: 'img-thumbnail'
+    %li.name
+      Dinshaw Gobhai
+    %li.email
+      = mail_to 'gobhai@gmail.com', 'gobhai@gmail.com', encode: :javascript
+    %li.phone
+      = link_to '646.239.8325', 'tel:+16462398325'
+    %li.print
+      = link_to fa_icon('print'), 'javascript:window.print()', class: 'pull-right'

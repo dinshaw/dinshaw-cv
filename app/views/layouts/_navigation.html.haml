@@ -1,7 +1,7 @@
-%nav.navbar.navbar-toggleable-md.fixed-top.navbar-inverse.bg-inverse
+%nav.navbar.navbar-toggleable-md.fixed-top.navbar-inverse.bg-inverse.hidden-print
   %button.navbar-toggler.navbar-toggler-right{"data-target" => "#main-nav", "data-toggle" => "collapse", :type => "button"}
     %span.navbar-toggler-icon
-  %a.navbar-brand{:href => "#"} Dinshaw
+  %a.navbar-brand{:href => "#"} Dinshaw Gobhai
   #main-nav.collapse.navbar-collapse
     %ul.navbar-nav.nav-pills.mr-auto
       %li.nav-item
@@ -22,8 +22,3 @@
       %li.nav-item
         %a.nav-link{ href: '#skills' }
           Skills
-    %ul.navbar-nav.pull-right
-      %li.nav-item.email
-        = mail_to "gobhai@gmail.com", "gobhai@gmail.com", encode: "javascript", class: 'nav-link'
-      %li.nav-item
-        %a.nav-link{ href: 'tel:+16462398325' } 646.239.8325
