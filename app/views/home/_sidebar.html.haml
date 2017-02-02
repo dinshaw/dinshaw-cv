@@ -3,6 +3,8 @@
     %li.headshot= image_tag 'din.jpg', class: 'img-thumbnail'
     %li.name
       Dinshaw Gobhai
+    %li.website
+      = link_to ENV['domain'], '/'
     %li.email
       = mail_to 'gobhai@gmail.com', 'gobhai@gmail.com', encode: :javascript
     %li.phone
