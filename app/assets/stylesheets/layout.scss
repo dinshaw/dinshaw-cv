@@ -6,20 +6,19 @@ body > .container {
 }
 
 a.anchor {
-    display: block;
-    position: relative;
-    top: -70px;
-    visibility: hidden;
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
 }
 
 section {
   margin-top: 2rem;
-  @include clearfix;
-  // @media print {
-  //   page-break-inside: avoid;
-  // }
+  // @include clearfix;
 }
 
 .sidebar {
-  position: fixed;
+  @media (min-width: 576px) {
+    position: fixed;
+  }
 }
