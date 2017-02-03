@@ -1,0 +1,14 @@
+@media print {
+  .print-header {
+    img {
+      height: 100px;
+      float: left;
+      margin-right: 1rem;
+    }
+  }
+
+  section {
+    page-break-inside: avoid;
+  }
+}
+
