@@ -29,8 +29,6 @@ GEM
       rails-html-sanitizer (~> 1.0, >= 1.0.2)
     actionview-encoded_mail_to (1.0.9)
       rails
-    active_link_to (1.0.3)
-      actionpack
     activejob (5.0.1)
       activesupport (= 5.0.1)
       globalid (>= 0.3.6)
@@ -202,7 +200,6 @@ PLATFORMS
 DEPENDENCIES
   actionpack-action_caching
   actionview-encoded_mail_to
-  active_link_to (~> 1.0)
   bootstrap (~> 4.0.0.alpha6)
   byebug
   coffee-rails (~> 4.2)
