@@ -9,7 +9,7 @@ end
 
 gem 'actionpack-action_caching'
 gem 'actionview-encoded_mail_to'
-gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'bootstrap', '~> 4.3.1'
 gem 'coffee-rails', '~> 4.2'
 gem 'devise'
 gem 'figaro', '~> 1.1.1'
