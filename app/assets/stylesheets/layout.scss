@@ -2,8 +2,9 @@ body {
   // Bootstrap scroll-spy requirement
   position: relative;
 }
+
 body > .container {
-  margin-top: 70px;
+  margin-top: 60px;
   @media print {
     margin-top: 0;
   }
@@ -24,4 +25,7 @@ section {
   @media (min-width: 768px) {
     position: fixed;
   }
+}
+.content {
+  padding-left: 225px;
 }
