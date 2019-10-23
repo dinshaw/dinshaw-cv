@@ -1,0 +1,15 @@
+%section.sidebar
+  %ul.contact.text-md-right.text-sm-left
+    %li.headshot= image_tag 'din.jpg', class: 'img-thumbnail'
+    %li.name
+      Dinshaw Gobhai
+    %li.website
+      = link_to Rails.application.credentials.domain, '/'
+    %li.email
+      = mail_to 'gobhai@gmail.com', 'gobhai@gmail.com', encode: :javascript
+    %li.phone
+      = link_to '646.239.8325', 'tel:+16462398325'
+    %li.references
+      = mail_to 'gobhai@gmail.com', 'Contact for references', encode: :javascript
+    %li.print
+      = link_to fa_icon('print'), 'javascript:window.print()'

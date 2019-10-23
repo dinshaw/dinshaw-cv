@@ -1,0 +1,22 @@
+.sidebar {
+  ul {
+    padding: 0;
+    list-style: none;
+
+    li.headshot {
+      margin-bottom: 0.5rem;
+      img {
+        width: 175px;
+      }
+    }
+
+    li.name {
+      font-weight: bold;
+    }
+
+    li.print {
+      margin-top: 0.5rem;
+      font-size: 1.3rem;
+    }
+  }
+}

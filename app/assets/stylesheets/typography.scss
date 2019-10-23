@@ -1,0 +1,26 @@
+body {
+  line-height:1.5rem;
+}
+
+h2, h4 {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid $gray-400;
+  small {
+    font-size: 1rem;
+  }
+}
+
+@media print {
+  html, body {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    a {
+      text-decoration: none;
+      color: $gray-800;
+    }
+
+    h2, h4 {
+      padding-bottom: 0.2rem;
+    }
+  }
+}

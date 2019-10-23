@@ -1,0 +1,25 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1, shrink-to-fit=no", :name => "viewport"}/
+    / The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
+    %meta{:content => "Dinshaw Gobhai CV", :name => "description"}/
+    %meta{:content => "Dinshaw Gobhai", :name => "author"}/
+    %link{:href => "../../favicon.ico", :rel => "icon"}/
+    %title Dinshaw Gobhai CV
+    = stylesheet_link_tag    'application', media: 'all'
+    = javascript_pack_tag 'application'
+    = csrf_meta_tags
+
+  %body{ data: { spy: :scroll, target: '#main-nav', offset: 0 } }
+    = render 'layouts/navigation'
+    .container
+      - if flash
+        .row
+          .col-sm-12
+            = render 'layouts/messages'
+      .row
+        .col-sm-12
+          = yield

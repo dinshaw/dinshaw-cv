@@ -1,0 +1,17 @@
+.navbar {
+  background-color: $dark-blue !important;
+
+  .nav-tabs {
+    border: none;
+
+    .nav-link {
+      border-width: 0 0 3px 0;
+      &.active {
+        background-color: $dark-blue;
+      }
+      &:hover:not(.active) {
+        border-bottom: 3px solid $gray-200;
+      }
+    }
+  }
+}
