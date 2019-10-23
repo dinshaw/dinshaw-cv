@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
-  caches_action :show
+  caches_page :show
 
   def show
   end
