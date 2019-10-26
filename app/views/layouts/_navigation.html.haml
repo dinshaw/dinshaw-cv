@@ -1,8 +1,8 @@
-%nav#main-nav.navbar.navbar-expand-md.fixed-top.navbar-dark.navbar-inverse.bg-inverse.d-print-none
-  %button.navbar-toggler.navbar-toggler-right{"data-target" => "#main-nav", "data-toggle" => "collapse", :type => "button"}
+%nav#main-nav.navbar.navbar-expand-lg.fixed-top.navbar-dark.navbar-inverse.bg-inverse.d-print-none
+  %button.navbar-toggler{ data: { target: '#main-nav-nav', toggle: :collapse, type: :button } }
     %span.navbar-toggler-icon
   %a.navbar-brand{href: '/'} Dinshaw Gobhai
-  .collapse.navbar-collapse
+  .collapse.navbar-collapse#main-nav-nav
     %ul.navbar-nav.nav-tabs.mr-auto
       %li.nav-item
         %a.nav-link{ href: '#about-me' }
