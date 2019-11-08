@@ -1,9 +1,15 @@
 @media print {
   .print-header {
     img {
-      height: 100px;
       float: left;
-      margin-right: 1rem;
+    }
+    h2, p {
+      margin-left: 110px;
+      line-height: 1.8rem;
+      small {
+        line-height: 1.8rem;
+        vertical-align: bottom;
+      }
     }
   }
 
