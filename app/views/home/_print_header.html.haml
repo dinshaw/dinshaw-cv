@@ -1,13 +1,9 @@
-%section.print-header.d-print-block.d-none
-  = image_tag 'din.jpg'
-  %h2.bottom-align-text
+%section.print-header.d-none.d-print-block
+  = image_tag 'headshot-print.jpg'
+  %h2
     Dinshaw Gobhai
-    %small.pull-right.bottom-align-text= Rails.application.credentials.domain
+    %small.float-right= Rails.application.credentials.domain
   %p.contact
     %small= mail_to 'gobhai@gmail.com', 'gobhai@gmail.com', encode: :javascript
     %small.pull-right 646.239.8325
-
-  %p.contact
-    %small Call or email for references
-
 .clearfix
