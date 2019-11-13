@@ -2,9 +2,8 @@
 %section.skills
   %h4 Skills, Languages, Frameworks
   %p
-    Full-stack Rails development on *NIX has been my primary focus for the last ten years. I have a deep understanding of the common tooling around high-traffic Ruby applications. It's impossible to list all of the languages/frameworks/libraries that I have used, but below is a sampling of the ones I have worked with the most.
+    Full-stack Rails development on *NIX has been my primary focus for the last ten years. Below is a list of the languages/frameworks/libraries that I have used the most.
 
-  %p If there is something on your list that is not on mine, please ask. I am always playing with new tooling as it matures and I love talking shop.
   %ul
     %li
       %strong Application languages:
@@ -17,31 +16,6 @@
       = succeed ',' do
         = link_to('PHP', 'https://secure.php.net', target: '_blank')
       = link_to('Ruby', 'https://www.ruby-lang.org/en/', target: '_blank')
-    %li
-      %strong Deployment options:
-      = succeed ',' do
-        = link_to('AWS', 'https://aws.amazon.com', target: '_blank')
-      = succeed ',' do
-        = link_to('Digital Ocean', 'https://www.digitalocean.com', target: '_blank')
-      = link_to('Heroku', 'https://www.heroku.com', target: '_blank')
-    %li
-      %strong Continuous integration services:
-      = succeed ',' do
-        = link_to('CircleCi', 'https://circleci.com', target: '_blank')
-      = succeed ',' do
-        = link_to('Jenkins', 'https://jenkins.io', target: '_blank')
-      = succeed ',' do
-        = link_to('Semaphore', 'https://semaphoreci.com', target: '_blank')
-      = link_to('Travis', 'https://travis-ci.org', target: '_blank')
-    %li
-      %strong Ruby testing frameworks:
-      = succeed ',' do
-        = link_to('Capybara', 'http://teamcapybara.github.io/capybara/', target: '_blank')
-      = succeed ',' do
-        = link_to('Cucumber', 'https://cucumber.io', target: '_blank')
-      = succeed ',' do
-        = link_to('MiniTest', 'https://github.com/seattlerb/minitest', target: '_blank')
-      = link_to('RSpec', 'http://rspec.info', target: '_blank')
     %li
       %strong Client-side languages, frameworks, &amp; abstractions:
       = succeed ',' do
@@ -72,6 +46,15 @@
         = link_to('Redux', 'https://redux.js.org', target: '_blank')
       = link_to('SASS', 'http://sass-lang.com', target: '_blank')
     %li
+      %strong Continuous Integration services:
+      = succeed ',' do
+        = link_to('CircleCi', 'https://circleci.com', target: '_blank')
+      = succeed ',' do
+        = link_to('Jenkins', 'https://jenkins.io', target: '_blank')
+      = succeed ',' do
+        = link_to('Semaphore', 'https://semaphoreci.com', target: '_blank')
+      = link_to('Travis', 'https://travis-ci.org', target: '_blank')
+    %li
       %strong Databases:
       = succeed ',' do
         = link_to('CouchDB', 'http://couchdb.apache.org', target: '_blank')
@@ -82,13 +65,18 @@
       = succeed ',' do
         = link_to('Postgres', 'https://www.postgresql.org', target: '_blank')
       = link_to('Sqlite', 'https://www.sqlite.org', target: '_blank')
-
     %li
-      %strong Search engines:
+      %strong Deployment options:
       = succeed ',' do
-        = link_to('Apache Solr', 'http://lucene.apache.org/solr/', target: '_blank')
-      = link_to('Sphinx', 'http://sphinxsearch.com', target: '_blank')
-
+        = link_to('AWS', 'https://aws.amazon.com', target: '_blank')
+      = succeed ',' do
+        = link_to('Digital Ocean', 'https://www.digitalocean.com', target: '_blank')
+      = link_to('Heroku', 'https://www.heroku.com', target: '_blank')
+    %li
+      %Strong In memory data stores:
+      = succeed ',' do
+        = link_to('Memcached', 'https://en.wikipedia.org/wiki/Memcached', target: '_blank')
+      = link_to('Redis', 'https://redis.io', target: '_blank')
     %li
       %strong Mobile:
       = succeed ',' do
@@ -97,9 +85,21 @@
         = link_to('React Native', 'https://facebook.github.io/react-native/', target: '_blank')
       = link_to('Ruby Motion', 'http://www.rubymotion.com', target: '_blank')
     %li
-      %Strong In memory data stores:
+      %strong Ruby testing:
       = succeed ',' do
-        = link_to('Memcached', 'https://en.wikipedia.org/wiki/Memcached', target: '_blank')
-      = link_to('Redis', 'https://redis.io', target: '_blank')
+        = link_to('Capybara', 'http://teamcapybara.github.io/capybara/', target: '_blank')
+      = succeed ',' do
+        = link_to('Cucumber', 'https://cucumber.io', target: '_blank')
+      = succeed ',' do
+        = link_to('MiniTest', 'https://github.com/seattlerb/minitest', target: '_blank')
+      = link_to('RSpec', 'http://rspec.info', target: '_blank')
+    %li
+      %strong Search engines:
+      = succeed ',' do
+        = link_to('Apache Solr', 'http://lucene.apache.org/solr/', target: '_blank')
+      = link_to('Sphinx', 'http://sphinxsearch.com', target: '_blank')
 
+
+
+  %p If there is something on your list that is not on mine, please ask. I am always playing with new tooling as it matures and I love talking shop.
 
