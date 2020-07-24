@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.5.3'
-gem 'rails', '~> 6.0.0'
+ruby '2.6.5'
+gem 'rails', '~> 6.0.3'
 
 gem "actionpack-page_caching", github: 'rails/actionpack-page_caching', branch: 'master'
 gem 'bootsnap', '>= 1.4.2', require: false
