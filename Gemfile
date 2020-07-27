@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.5'
+ruby '2.6.6'
 gem 'rails', '~> 6.0.3'
 
-gem "actionpack-page_caching", github: 'rails/actionpack-page_caching', branch: 'master'
+gem 'actionpack-page_caching'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'bootstrap'
 gem 'font-awesome-rails'
@@ -17,7 +17,7 @@ gem 'turbolinks', '~> 5'
 gem 'webpacker', '~> 4.0'
 
 group :development, :test do
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'byebug'
 end
 
 group :development do
@@ -31,6 +31,5 @@ group :test do
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
   gem 'webdrivers'
+  gem 'minitest-ci'
 end
-
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
