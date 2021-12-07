@@ -78,6 +78,11 @@
         = link_to('Memcached', 'https://en.wikipedia.org/wiki/Memcached', target: '_blank')
       = link_to('Redis', 'https://redis.io', target: '_blank')
     %li
+      %strong Metrics & Monitoring
+      = succeed "," do
+        %a{ href: "https://www.datadoghq.com/", target: :_blank } Datadog
+      %a{ href: "https://newrelic.com/", target: :_blank } New Relic
+    %li
       %strong Mobile:
       = succeed ',' do
         = link_to('Objective-C', 'https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html', target: '_blank')
