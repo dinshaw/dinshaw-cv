@@ -2,7 +2,7 @@
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.7.5-browsers
+      - image: circleci/ruby:2.7.3-node-browsers
     steps:
       - checkout
       - ruby/install-deps
@@ -12,7 +12,7 @@ jobs:
       - browser-tools/install-chromedriver
   test:
     docker:
-      - image: circleci/ruby:2.7.5-browsers
+      - image: circleci/ruby:2.7.3-node-browsers
       - environment:
           POSTGRES_DB: dinshaw_cvZtest
           POSTGRES_PASSWORD: ""
